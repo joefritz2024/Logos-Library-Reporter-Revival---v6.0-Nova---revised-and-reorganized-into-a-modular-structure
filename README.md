@@ -1,160 +1,136 @@
 # LLR-Revival v6.0 Nova
 
-**Kompatibel mit Logos Bible Software® und Verbum®**
+**Compatible with Logos Bible Software® and Verbum®**
 
-> Ein vollständiger Browser-basierter Bibliotheks-Explorer für Logos/Verbum — entwickelt von Pastor Hermann Fritz (FeG Horb am Neckar) als Fortführung und Weiterentwicklung von Steve Clarks *Logos Library Reporter* (2015).
-
----
-
-## Was ist LLR-Revival?
-
-LLR-Revival liest die lokale Logos/Verbum-Datenbank aus und stellt alle eigenen Bücher in einer übersichtlichen, multifunktionalen Web-Oberfläche dar — direkt im Browser, ohne Installation einer weiteren App. Die Anwendung läuft vollständig lokal, ohne Cloud-Abhängigkeit.
+> A fully browser-based library explorer for Logos/Verbum — developed by Pastor Hermann Fritz (FeG Horb am Neckar, Germany) as a revival and major extension of Steve Clark's original *Logos Library Reporter* (2015).
 
 ---
 
-## Hauptfunktionen
+## What is LLR-Revival?
 
-### 📚 Bibliotheks-Explorer
-- Automatische Kategorisierung von 22.000+ Büchern in **40+ theologische Kategorien**
-- Mehrere Ansichtsmodi: Modern (Kategorien + Gruppen) und Bookshelf (visuelles Bücherregal)
-- Buchcover-Anzeige aus der Logos-Datenbank (automatisch extrahiert)
-- Direktes Öffnen jedes Buches in Logos/Verbum per Klick
-- Epoch-Timeline mit 15 historischen Epochen
-
-### 🔍 Erweiterte Suche
-- Volltextsuche über alle Bücher (Titel, Autor, Kategorie, Serie, Jahr)
-- Kategorie-Filter, Autoren-Filter, Epochen-Filter
-- Theologische Themen-Suche
-- Fuzzy-Suche für unscharfe Treffer
-- KI-gestützte Buchempfehlungen (Groq, OpenRouter, Anthropic, Ollama)
-
-### ✝️ Predigt-Werkstatt
-- **350+ Perikopen** aus AT, NT und Apokryphen (Kirchenjahr-gefiltert)
-- Buchübergreifende Kirchenfest-Suche (Advent → alle Advent-Texte aus allen Büchern)
-- Wortstudien zu Griechisch, Hebräisch und Latein mit direktem Öffnen in Logos
-- Clementina Vulgata und Neo-Vulgata Verknüpfung bei lateinischen Texten
-- Literaturverweise mit Bibliothekssuche und Fallback auf beste Kommentare
-- KI-exegetische Gliederung (Groq/OpenRouter/Anthropic/Ollama) — 4-sprachig
-- Paralleltexte (Konzept-Matching) mit „Alle öffnen"-Funktion
-- AT-Einleitungen / NT-Einleitungen / Archäologie — Direktzugriff
-- Export als DOCX
-- Notizfunktion (perikopen-bezogen, mit Export)
-- Projektmappen: Bücher, Notizen und Zitate für Predigtvorbereitung bündeln
-
-### 🤖 KI-Integration
-- Buchempfehlungen via KI (Groq, OpenRouter, Anthropic, Ollama)
-- KI-exegetische Predigtgliederung in DE/EN/FR/ES
-- Konfigurierbar mit eigenem API-Key
-
-### ☁️ Cloud-Sync
-- Synchronisation über GitHub Gist (kostenlos)
-- Auto-Sync alle 15 Minuten
-- Geräteübergreifend: Desktop ↔ Tablet ↔ Smartphone
-
-### 📖 Weitere Features
-- Tages-Bibelvers (AT + NT + Latein) mit Direktlink in Logos
-- Zitate-Modus, Lese-Modus
-- Arbeitsprojekte mit Bücherlisten, Notizen, Zitaten
-- Import/Export (PDF, DOCX, TXT, JSON)
-- Google Drive Sync
-- 34 Themes (Aurora, Kloster, Nordisch, Papyrus u.v.m.)
-- Lese-Fortschritt-Tracking
-- Verlauf der geöffneten Bücher
-- Persönliche Bücher (Logos Personal Books)
-- Mobile-optimiert (Android/iOS mit lokalem Webserver)
+LLR-Revival reads your local Logos/Verbum database and presents all your books in a clear, feature-rich web interface — running directly in the browser, locally, without any additional app installation. No cloud dependency, no subscription.
 
 ---
 
-## Sprachen
+## Key Features
 
-| Sprache | Installer |
-|---------|-----------|
-| 🇩🇪 Deutsch | `Win/DE/01-INSTALLIEREN-Doppelklick.py` |
-| 🇬🇧 English | `Win/EN/01-INSTALL-DoubleClick.py` |
-| 🇫🇷 Français | `Win/FR/01-INSTALLER-DoubleClic.py` |
-| 🇪🇸 Español | `Win/ES/01-INSTALAR-DobleClick.py` |
+### 📚 Library Explorer
+- Automatic categorization of 22,000+ books into 40+ theological categories
+- Multiple view modes: Modern (categories + groups) and Bookshelf (visual cover view)
+- Book cover display extracted directly from the Logos database
+- One-click opening of any book in Logos/Verbum
+- Epoch timeline with 15 historical epochs
 
-Die Benutzeroberfläche ist vollständig in allen 4 Sprachen übersetzt (i18n-System).
+### 🔍 Advanced Search
+- Full-text search across all books (title, author, category, series, year)
+- Category, author, epoch and language filters
+- Theological theme search with AI expansion
+- Fuzzy search for approximate matches
+- AI-powered book recommendations (Groq, OpenRouter, Anthropic, Ollama)
+
+### ✝️ Sermon Workshop
+- **350+ pericopes** from OT, NT and Apocrypha (liturgical year filtered)
+- Cross-book liturgical feast search (Advent → all Advent texts from all books)
+- Word studies for Greek, Hebrew and Latin with direct Logos links
+- Clementina Vulgata and Neo-Vulgata links for Latin terms
+- Literature references with library search and fallback to best commentaries
+- AI exegetical sermon outline in 4 languages (DE/EN/FR/ES)
+- Parallel texts with "Open all" function
+- OT Introductions / NT Introductions / Archaeology quick access
+- Export as DOCX, notes per pericope
+- Project folders for sermon preparation
+
+### 🤖 AI Integration
+- Book recommendations and sermon outlines via Groq, OpenRouter, Anthropic, Ollama
+- Configurable with your own API key
+
+### ☁️ Cloud Sync
+- Free synchronization via GitHub Gist
+- Auto-sync every 15 minutes, cross-device
+
+### 📖 More Features
+- Daily Bible verse (OT + NT + Latin) with direct Logos link
+- 34 themes, Quote mode, Reading mode
+- Work projects, Import/Export (PDF, DOCX, TXT, JSON)
+- Mobile optimized (Android/iOS)
 
 ---
 
-## Systemvoraussetzungen
+## Languages
 
-- **Logos Bible Software** (Version 4–10) oder **Verbum** — muss mindestens einmal gestartet worden sein
-- **Python 3.6+** (für den Installer und lokalen Server)
-- **Moderner Browser** (Brave, Chrome, Firefox, Edge, Safari)
-- **Windows** (primär), macOS und Linux werden unterstützt
-- iOS/Android: funktioniert mit lokalem Webserver-App (KWS, Simple HTTP Server)
+| Language | Installer | Port |
+|----------|-----------|------|
+| 🇩🇪 German | `Win/DE/01-INSTALLIEREN-Doppelklick.py` | 8421 |
+| 🇬🇧 English | `Win/EN/01-INSTALL-DoubleClick.py` | 8422 |
+| 🇫🇷 French | `Win/FR/01-INSTALLER-DoubleClic.py` | 8423 |
+| 🇪🇸 Spanish | `Win/ES/01-INSTALAR-DobleClick.py` | 8424 |
+
+All four language versions can run simultaneously on different ports.
+
+---
+
+## System Requirements
+
+- **Logos Bible Software** (v4–10) or **Verbum** — must have been started at least once
+- **Python 3.6+**
+- **Modern browser** (Brave, Chrome, Firefox, Edge, Safari)
+- **Windows** (primary), macOS and Linux supported
+- iOS/Android: works with a local web server app (e.g. KWS)
 
 ---
 
 ## Installation
 
 ```
-1. ZIP-Datei entpacken
-2. Gewünschte Sprachversion öffnen (z.B. Win/DE/)
-3. 01-INSTALLIEREN-Doppelklick.py doppelklicken
-4. Installer liest Logos-Datenbank, kategorisiert Bücher, extrahiert Cover
-5. Desktopverknüpfung wird automatisch erstellt
-6. Browser öffnet sich automatisch auf http://localhost:8421
+1. Extract the ZIP file
+2. Open your language folder (e.g. Win/EN/)
+3. Double-click the installer (.py file)
+4. Installer reads Logos database, categorizes books, extracts covers
+5. Desktop shortcut created automatically
+6. Browser opens at http://localhost:8422 (EN)
 ```
 
 ---
 
-## Architektur
-
-LLR-Revival v6.0 ist modular aufgebaut (28+ JavaScript-Module):
+## Architecture
 
 ```
 LLR-Revival-6.0/
-├── LLR-Revival-6.0-DE.html     # Hauptdatei (Einstiegspunkt)
-├── server.py                    # Lokaler Python-Webserver (Port 8421)
-├── lazy-loader-v6.js            # Modularer On-Demand-Loader
-├── data.js                      # Bibliotheksdaten (vom Installer generiert)
-├── sermons-data.js              # Perikopen-Daten (350+ Texte)
-├── ui-sermon.js                 # Predigt-Werkstatt
-├── ui-ai-recommend.js           # KI-Buchempfehlungen
-├── ui-docs.js                   # Arbeitsprojekte
-├── ui-bookops.js                # Bibliothekssuche
-├── classifier.js                # Buch-Kategorisierung
-├── cloud-sync.js                # GitHub Gist Sync
-├── styles.css                   # 34 Themes
-├── covers/                      # Buchcover (vom Installer extrahiert)
-└── covers-mobile/               # WebP-Thumbnails für Mobilgeräte
+├── LLR-Revival-6.0-EN.html     # Main entry point
+├── server.py                    # Local Python web server
+├── lazy-loader-v6.js            # On-demand module loader
+├── data.js                      # Your library data (installer-generated)
+├── sermons-data.js              # 350+ pericopes
+├── ui-sermon.js                 # Sermon Workshop
+├── ui-ai-recommend.js           # AI recommendations
+├── classifier.js                # Book categorization engine
+├── cloud-sync.js                # GitHub Gist sync
+├── styles.css                   # 34 themes
+├── covers/                      # Book covers
+└── covers-mobile/               # WebP thumbnails for mobile
 ```
-
----
-
-## Kategorien (Auswahl)
-
-Bibel & Bibelwörterbücher · Kommentare · Kirchengeschichte · Theologie & Dogmatik · Biblische Sprachen · Systematische Theologie · Homiletik & Predigt · Hermeneutik & Auslegung · Apologetik & Weltanschauung · Archäologie & Geschichte Israels · Biblische Theologie · Altes Testament · Neues Testament · Mission & Evangelisation · Seelsorge · Eschatologie · Ethik · Biografien · Lexika & Wörterbücher · Nachschlagewerke · I. Journale & Magazine · II. Kleine Buch- & Journalreihen · Landkarten & Atlanten · Persönliche Bücher · Personen der Bibel & Kirchengeschichte · Early American History · und weitere
-
----
-
-## Entwicklung
-
-LLR-Revival begann als Einzeldatei-Applikation und wurde über Hunderte von Revisionen zur heutigen modularen v6.0-Architektur weiterentwickelt.
-
-**Entwickler:** Pastor Hermann Fritz (FeG Horb am Neckar, Baden-Württemberg) mit Claude AI (Anthropic)  
-**Ursprung:** Basiert auf Steve Clarks *Logos Library Reporter* (2015)  
-**Lizenz:** Open Source — freie Nutzung für die weltweite Logos-Community
 
 ---
 
 ## Credits
 
-- **Steve Clark** — Ursprünglicher Autor des Logos Library Reporter (2015)
-- **Hermann Fritz** — Komplette Neuentwicklung, Erweiterung und Pflege von LLR-Revival v3.0–v6.0
-- **Anthropic Claude AI** — KI-Software
+- **Steve Clark** — Original author of Logos Library Reporter (2015)
+- **Hermann Fritz** — Complete redevelopment and maintenance of LLR-Revival v3.0–v6.0
+- **Anthropic Claude AI** — AI software
 
 ---
 
-## Links
+## License
+
+Open source — free use for the global Logos community.  
+**Not for sale.** This software is exclusively for free, non-commercial use.
+
+---
 
 - 📦 [GitHub Repository](https://github.com/joefritz2024/Logos-Library-Reporter-Revival---v6.0-Nova---revised-and-reorganized-into-a-modular-structure)
 - 📚 [Logos Bible Software](https://www.logos.com)
-- ⛪ [FeG Horb am Neckar](https://feg-horb.de)
+
+> 🇩🇪 **Auf Deutsch:** [README.de.md](README.de.md)
 
 ---
-
-*LLR-Revival ist kein offizielles Produkt von Faithlife/Logos. Logos Bible Software® ist ein eingetragenes Warenzeichen von Faithlife LLC.*
+*Logos Bible Software® is a registered trademark of Faithlife LLC. LLR-Revival is not an official Faithlife product.*
